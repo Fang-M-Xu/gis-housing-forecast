@@ -46,5 +46,5 @@ NYC Open Data; U.S. Census (boundaries/demographics); Kaggle NYC Property Sales.
 - Peripheral low-price areas may become emerging hotspots if infrastructure and facilities improve, and should be closely monitored.
 
 > 📂 Detailed reports:
-> - [Map process](maps\README.md)
-> - [Price predict](analysis\README.md)
+> - [Map process](maps/README.md)
+> - [Price predict](analysis/README.md)
