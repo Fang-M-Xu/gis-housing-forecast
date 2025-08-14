@@ -4,24 +4,24 @@
 
 ### Data Preparation
 - **From GIS**: export the seven‑factor table as `features.csv` (`ntacode` + factors).
-- **From prices**: aggregate `price_per_sqm` by tractcode and **join** to features → `dataset.csv`.
+- **From prices**: aggregate `price_per_sqft` by tractcode and **join** to features → `dataset.csv`.
 - **Splits**: `train_set.csv`, `val_set.csv`, `test_set.csv`.
 
 ### What the Scripts Do
 - **01 PrepareData.py**: loads CSV, coerces types (e.g., `Census Tract` to string), drops nulls/dupes, standardizes numeric features for OLS.
 - **02 TrainModel.py**: fits **OLS** (with coefficients & p‑values) and **Random Forest** (with permutation or impurity importances), computes cross‑val metrics, and runs **SHAP** for global importance and parcel‑level contributions; saves `ols_summary.txt`, `model_comparison_results.csv`, and `shap_by_parcel.csv`.
-- **03 TrainModel.py**: with predict export, generates parcel‑level predictions, joins IDs, and exports `predicted_price_by_parcel.csv` and `test_predictions.csv` (with errors).
+- **03 PredictProcess.py**: with predict export, generates parcel‑level predictions, joins IDs, and exports `predicted_price_by_parcel.csv` and `test_predictions.csv` (with errors).
 
 ### Outputs
-- `ml/outputs/model_comparison_results.csv` — global importance (OLS coeffs, RF importance, SHAP mean |value|).
-- `ml/outputs/shap_by_parcel.csv` — local SHAP values per factor per parcel.
-- `ml/outputs/predicted_price_by_parcel.csv` — predicted price per parcel.
-- `ml/outputs/ols_summary.txt` — OLS regression report.
-- `ml/outputs/feature_importance.png` — bar chart for RF vs SHAP.
+- `model_comparison_results.csv` — global importance (OLS coeffs, RF importance, SHAP mean |value|).
+- `shap_by_parcel.csv` — local SHAP values per factor per parcel.
+- `predicted_price_by_parcel.csv` — predicted price per parcel.
+- `ols_summary.txt` — OLS regression report.
+- `feature_importance.png` — bar chart for RF vs SHAP.
 
 ### Visualizing in ArcGIS Pro
-- **Local effects**: Join `shap_by_parcel.csv` back to parcels on `ntacode`, symbolize a single factor’s SHAP field with a **diverging** ramp (red = push up, blue = pull down; center = 0).
-- **Predictions**: Join `predicted_price_by_parcel.csv`, symbolize with a **sequential** ramp (light = low, dark = high); produce an **error map** from absolute error.
+- **Local effects**: Join `shap_by_parcel.csv` back to parcels on `ntacode`, symbolize a single factor’s SHAP field with a diverging ramp (red = push up, blue = pull down; center = 0).
+- **Predictions**: Join `predicted_price_by_parcel.csv`, symbolize with a sequential ramp (light = low, dark = high).
 
 ### Analysis result
 

@@ -13,8 +13,8 @@
     - `Pop_Density`:density of population in a neighbourhood of Brooklyn, 
     - `Road_Density`:density of roads in a neighbourhood of Brooklyn, 
     - `Length_Close_Facility`: length from centre of neighbourhood to mainRoad, 
-    - `Park_Service_Min`: server area that the park covered, 
-    - `Univ_Service_Min`:server area that the university covered.
+    - `Park_Service_Min`: service area that the park covered, 
+    - `Univ_Service_Min`:service area that the university covered.
 - **Analytical rigor**: OLS with coefficients/p‑values + Random Forest with feature importance, plus SHAP for global & local explanations.
 - **Actionable outputs**: predicted price surface by parcel, factor importance ranking, local SHAP maps, and short‑listed candidate areas.
 
