@@ -21,7 +21,7 @@
 
 ### Visualizing in ArcGIS Pro
 - **Local effects**: Join `shap_by_parcel.csv` back to parcels on `ntacode`, symbolize a single factor’s SHAP field with a diverging ramp (red = push up, blue = pull down; center = 0).
-- **Predictions**: Join `predicted_price_by_parcel.csv`, symbolize with a sequential ramp (light = low, dark = high).
+- **Predictions**: Join `predicted_price_by_parcel.csv`, symbolize with a sequential ramp.
 
 ### Analysis result
 
