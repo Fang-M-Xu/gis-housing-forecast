@@ -33,10 +33,10 @@
 - **Python**: `pandas`, `numpy`, `scikit-learn`, `shap`, `geopandas`, `matplotlib`.
 
 ### Quick Preview
-![POIMap](PredictResult.jpg)  — *Current price vs predicted price by RF.*
+![POIMap](PredictResult-min.jpg)  — *Current price vs predicted price by RF.*
 
 ###
-![compare](ols_rf_compare-mark.jpg)  — *OLS Coefficients with Significance vs Random Forest Feature Importance.*
+![compare](ols_rf_compare-mark-min.jpg)  — *OLS Coefficients with Significance vs Random Forest Feature Importance.*
 
 ###
 
