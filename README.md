@@ -22,9 +22,17 @@
 - **GIS**: ArcGIS Pro (Spatial Join, Network Analyst, Field Calculator).
 - **Python**: `pandas`, `numpy`, `scikit-learn`, `shap`, `geopandas`, `matplotlib`.
 
-### Data Sources & Use
-NYC Open Data; U.S. Census (boundaries/demographics); Kaggle NYC Property Sales. This repository is for demonstration/portfolio purposes only and is not intended for commercial use.
+### License & Data Notice
+- **Data sources:** [NYC Open Data](https://opendata.cityofnewyork.us/), [NYC Department of City Planning — Neighborhood Tabulation Areas datasets](https://www.nyc.gov/content/planning/pages/resources/datasets/neighborhood-tabulation),  [Kaggle](https://www.kaggle.com/),and [US Census Bureau](https://www.census.gov/en.html).
+- Maps and figures in this repository are derived from the above public datasets and are provided **for demonstration/portfolio purposes only**. **Not for commercial use.**
+- Before reuse, review and comply with each dataset’s license and terms; retain source attribution on derived outputs.
+- No affiliation or endorsement by NYC agencies or Kaggle is implied.
+- All maps and data in this repository are created with **properly licensed ArcGIS Pro** software.
 
+### Copyright & Usage
+- All finished maps, documentation, and derivative files in this repository are copyrighted by the project author(s) and **prohibited from commercial use**. For personal, organizational, or academic reference only.
+- Please attribute this project and data sources when quoting.
+- Do **not** use this repository content in violation of laws, regulations, or third-party rights.
 ### Quick Preview
 
 ![POIMap](PredictResult.jpg)  — *Current price vs predicted price by RF.*
