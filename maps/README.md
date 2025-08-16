@@ -35,9 +35,9 @@ NTA_Code | POI_Count | Bus_Count | Pop_Density | Road_Density | Length_Close_Fac
 
 ### Screenshot Placeholders (add your captures)
 
-![POIMap](POIMap-v2.jpg)  — *Spatial Join method for POI counts.*
+![POIMap](POIMap-v2-min.jpg)  — *Spatial Join method for POI counts.*
 ###
-![CloseFacoty](CloseFacoty-v2.jpg) — *Closest Facility result map (distance).*
+![CloseFacoty](CloseFacoty-v2-min.jpg) — *Closest Facility result map (distance).*
 ###
-![ServerArea](ServerArea-University.jpg) — *Service Area breaks for universities.*
+![ServerArea](ServerArea-University-min.jpg) — *Service Area breaks for universities.*
 
