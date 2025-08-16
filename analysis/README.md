@@ -25,19 +25,19 @@
 
 ### Analysis result
 
-![importanttable](importanttable-mark-v2.jpg) — *RF vs SHAP bar chart.*
+![importanttable](importanttable-mark-v2-min.jpg) — *RF vs SHAP bar chart.*
 
 ##
 
-![coef_significance](ols_coef_significance_beautified-mark.jpg) — *Snippet of OLS summary (coefficients & p‑values).*
+![coef_significance](ols_coef_significance_beautified-mark-min.jpg) — *Snippet of OLS summary (coefficients & p‑values).*
 
 ##
 
-![volcano_coef](volcano_coef_pvalue-mark.jpg)  — *OLS Coefficients and Significance with RF Importance.*
+![volcano_coef](volcano_coef_pvalue-mark-min.jpg)  — *OLS Coefficients and Significance with RF Importance.*
 
 ##
 
-![ImportantEffect](ImportantEffect.jpg) — *Local SHAP map for top four factors.*
+![ImportantEffect](ImportantEffect-min.jpg) — *Local SHAP map for top four factors.*
 
 
 ### Analysis Reports
