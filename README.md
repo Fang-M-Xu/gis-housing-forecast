@@ -6,6 +6,16 @@
 - **What you get**: seven GIS factors mapped at neighborhood/parcel scale, a transparent ML pipeline (correlation + prediction), and decision‑ready maps/tables.
 - **Who it’s for**: planning, real estate, policy, and analytics teams needing evidence‑based siting and pricing.
 
+## Table of Contents
+
+- [Highlights](#highlights)
+- [Base Map Project: NYC GIS Map Gallery — Portfolio Case Study](https://github.com/Fang-M-Xu/gis-map-gallery)
+- [Tech Stack](#tech-stack)
+- [Quick Preview](#quick-preview)
+- [Analysis Results](#analysis-results)
+- [License & Data Notice](#license--data-notice)
+- [FAQ](#faq)
+
 ### Highlights
 - **Seven spatial factors**: 
     - `POI_Count`: number of landmarks(museum,park,university...) in a neighbourhood of Brooklyn,
@@ -22,19 +32,7 @@
 - **GIS**: ArcGIS Pro (Spatial Join, Network Analyst, Field Calculator).
 - **Python**: `pandas`, `numpy`, `scikit-learn`, `shap`, `geopandas`, `matplotlib`.
 
-### License & Data Notice
-- **Data sources:** [NYC Open Data](https://opendata.cityofnewyork.us/), [NYC Department of City Planning — Neighborhood Tabulation Areas datasets](https://www.nyc.gov/content/planning/pages/resources/datasets/neighborhood-tabulation),  [Kaggle](https://www.kaggle.com/),and [US Census Bureau](https://www.census.gov/en.html).
-- Maps and figures in this repository are derived from the above public datasets and are provided **for demonstration/portfolio purposes only**. **Not for commercial use.**
-- Before reuse, review and comply with each dataset’s license and terms; retain source attribution on derived outputs.
-- No affiliation or endorsement by NYC agencies or Kaggle is implied.
-- All maps and data in this repository are created with **properly licensed ArcGIS Pro** software.
-
-### Copyright & Usage
-- All finished maps, documentation, and derivative files in this repository are copyrighted by the project author(s) and **prohibited from commercial use**. For personal, organizational, or academic reference only.
-- Please attribute this project and data sources when quoting.
-- Do **not** use this repository content in violation of laws, regulations, or third-party rights.
 ### Quick Preview
-
 ![POIMap](PredictResult.jpg)  — *Current price vs predicted price by RF.*
 
 ###
@@ -56,3 +54,15 @@
 > 📂 Detailed reports:
 > - [Map process](maps/README.md)
 > - [Price predict](analysis/README.md)
+
+### License & Data Notice
+- **Data sources:** [NYC Open Data](https://opendata.cityofnewyork.us/), [NYC Department of City Planning — Neighborhood Tabulation Areas datasets](https://www.nyc.gov/content/planning/pages/resources/datasets/neighborhood-tabulation),  [Kaggle](https://www.kaggle.com/),and [US Census Bureau](https://www.census.gov/en.html).
+- Maps and figures in this repository are derived from the above public datasets and are provided **for demonstration/portfolio purposes only**. **Not for commercial use.**
+- Before reuse, review and comply with each dataset’s license and terms; retain source attribution on derived outputs.
+- No affiliation or endorsement by NYC agencies or Kaggle is implied.
+- All maps and data in this repository are created with **properly licensed ArcGIS Pro** software.
+
+### Copyright & Usage
+- All finished maps, documentation, and derivative files in this repository are copyrighted by the project author(s) and **prohibited from commercial use**. For personal, organizational, or academic reference only.
+- Please attribute this project and data sources when quoting.
+- Do **not** use this repository content in violation of laws, regulations, or third-party rights.
