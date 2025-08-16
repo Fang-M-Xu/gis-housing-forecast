@@ -25,7 +25,7 @@
 
 ### Analysis result
 
-![importanttable](importanttable-mark-v2-min.jpg) — *RF vs SHAP bar chart.*
+![importanttable](importanttable-mark-v2.jpg) — *RF vs SHAP bar chart.*
 
 ##
 
