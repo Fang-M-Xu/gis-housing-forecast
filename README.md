@@ -14,7 +14,6 @@
 - [Quick Preview](#quick-preview)
 - [Analysis Results](#analysis-results)
 - [License & Data Notice](#license--data-notice)
-- [FAQ](#faq)
 
 ### Highlights
 - **Seven spatial factors**: 
@@ -33,12 +32,18 @@
 - **Python**: `pandas`, `numpy`, `scikit-learn`, `shap`, `geopandas`, `matplotlib`.
 
 ### Quick Preview
-![POIMap](PredictResult-min.jpg)  — *Current price vs predicted price by RF.*
+![POIMap](PredictResult-min.jpg)  
 
-###
-![compare](ols_rf_compare-mark-min.jpg)  — *OLS Coefficients with Significance vs Random Forest Feature Importance.*
+— *Current price vs predicted price by RF.*
 
-###
+
+
+
+![compare](ols_rf_compare-mark-min.jpg)  
+
+— *OLS Coefficients with Significance vs Random Forest Feature Importance.*
+
+
 
 ### Analysis Results
 #### 1.Key Influencing Factors
