@@ -25,22 +25,30 @@
 
 ### Analysis result
 
-![importanttable](importanttable-mark-v2.jpg) — *RF vs SHAP bar chart.*
+![importanttable](importanttable-mark.jpg) — *RF vs SHAP bar chart.*
 
-##
 
-![coef_significance](ols_coef_significance_beautified-mark-min.jpg) — *Snippet of OLS summary (coefficients & p‑values).*
 
-##
+![coef_significance](ols_coef_significance_beautified-mark-min.jpg) 
 
-![volcano_coef](volcano_coef_pvalue-mark-min.jpg)  — *OLS Coefficients and Significance with RF Importance.*
+— *Snippet of OLS summary (coefficients & p‑values).*
 
-##
 
-![ImportantEffect](ImportantEffect-min.jpg) — *Local SHAP map for top four factors.*
+
+![volcano_coef](volcano_coef_pvalue-mark-min.jpg)  
+
+— *OLS Coefficients and Significance with RF Importance.*
+
+
+
+![ImportantEffect](ImportantEffect-min.jpg) 
+
+— *Local SHAP map for top four factors.*
+
 
 
 ### Analysis Reports
+
 #### 1.Key Factor Importance
 - RF and SHAP rankings highlight Length_Close_Facility, POI_Count, and Pop_Density as top contributors to housing price prediction, with Road_Density also notable.
 
